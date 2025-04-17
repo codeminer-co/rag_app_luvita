@@ -55,7 +55,7 @@ def load_documents():
 def load_novels_locally():
     """Load pre-downloaded novels from rag_files"""
     novel_files = [
-        "Haunting-adeline-Part-1.pdf",
+        "rag_files\Haunting-adeline-Part-1.pdf",
         "Hunting-adeline-Part-2.pdf",
         "King-of-Greed-3.pdf",
         "king-of-pride-2.pdf",
