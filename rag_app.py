@@ -16,7 +16,7 @@ from langchain_core.documents import Document
 app = Flask(__name__)
 
 # Base directory for local files
-BASE_DIR = Path("/home/ubuntu/rag_files")
+BASE_DIR = Path("/home/ubuntu/rag_app_luvita/rag_files")
 
 # Configuration
 MODEL_S3_PATH = "s3://luvita-models/Llama-3.1-8B-Instruct-F16.gguf"
@@ -55,7 +55,7 @@ def load_documents():
 def load_novels_locally():
     """Load pre-downloaded novels from rag_files"""
     novel_files = [
-        "rag_files\Haunting-adeline-Part-1.pdf",
+        "Haunting-adeline-Part-1.pdf",
         "Hunting-adeline-Part-2.pdf",
         "King-of-Greed-3.pdf",
         "king-of-pride-2.pdf",
