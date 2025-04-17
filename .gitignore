@@ -1,2 +1,3 @@
 rag_files/model.gguf
 rag_env/*
+venv/*
